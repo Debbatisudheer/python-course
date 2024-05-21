@@ -53,16 +53,15 @@ img {
     margin-bottom: 1in;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #c154c1;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+pre {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
 
 /* Responsive Design */
@@ -74,4 +73,16 @@ footer {
     img {
         margin-bottom: 30px; /* Adjust margin for smaller screens */
     }
+
+}
+/* Footer Styles */
+footer {
+    background-color: #E0218A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
