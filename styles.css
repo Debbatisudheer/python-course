@@ -1,0 +1,77 @@
+/* General Container Styles */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffd5cd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f85797;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffd5cd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #ff7070;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ff7070;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1in;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #c154c1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    img {
+        margin-bottom: 30px; /* Adjust margin for smaller screens */
+    }
+}
